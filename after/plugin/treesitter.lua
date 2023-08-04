@@ -1,17 +1,18 @@
-require 'nvim-treesitter.install'.compilers = { 'zig' }
+require'nvim-treesitter.install'.compilers = { 'zig' }
 
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all"
-  ensure_installed = { 
-    "vim", 
-    "lua", 
+  ensure_installed = {
+    "css",
+    "vim",
+    "lua",
     "c_sharp",
-    "vimdoc", 
-    "javascript", 
-    "typescript", 
-    "c", 
-    "lua", 
-    "rust" 
+    "vimdoc",
+    "javascript",
+    "typescript",
+    "c",
+    "lua",
+    "rust"
   },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
