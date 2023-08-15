@@ -1,0 +1,3 @@
+import = ["/home/rzo/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
+env = { TERM = 'xterm-256color' }
+window = { padding = { y = 5, x = 30 } }
